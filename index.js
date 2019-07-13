@@ -1,7 +1,7 @@
 
 function shout(String){
-  String = String.toUpperCase()
-  return String
+  return String.toUpperCase()
+  
 }
 
 
@@ -10,8 +10,7 @@ function logShout(String){
 }
 
 function whisper(String){
-  String = String.toLowerCase()
-  return String
+  return String.toLowerCase()
 }
 
 function logWhisper(String){
@@ -19,7 +18,5 @@ function logWhisper(String){
 }
 
 function sayHiToGrandma(String){
-  if(String === logWhisper(String)){
-    console.log('I can\t hear you!')
-  }
+ 
 }
